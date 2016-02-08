@@ -18,6 +18,15 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('css'));
 });
 
+gulp.task('copy-fonts', function() {
+  gulp.src('./bower_components/font-awesome/fonts/**/*.{ttf,woff,woff2,eof,svg}')
+      .pipe(gulp.dest('./css/fonts/'));
+  gulp.src('./bower_components/font-awesome/css/**/*.{css,css.map}')
+      .pipe(gulp.dest('./css/fa/'));
+});
+
+gulp.task('build',['sass','copy-fonts']);
+
 gulp.task('default', ['sass'], function() {
   gulp.watch(['scss/**/*.scss'], ['sass']);
 });
