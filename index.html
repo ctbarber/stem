@@ -6,53 +6,183 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/fa/font-awesome.min.css">
   </head>
-  <body>
-     <div class="row">
-      <div class="medium-3 columns">
+  <div id="stem-group-1" class="stem-group">
+    <div class="row align-center">
+      <h1> Mad Libs</h1>
+    </div>
 
+     <div class="row">
+      <div class="medium-4 columns">
+        <h3>Words to Use</h3>
         <form>
           <div class="row columns">
             <label>Noun</label>
-             <input type="text" placeholder="noun" />
+             <input id="noun" type="text" placeholder="noun" />
           </div>
           <div class="row columns">
             <label>Adjective</label>
-            <input type="text" placeholder="adjective" />
+            <input id="adjective" type="text" placeholder="adjective" />
           </div>
           <div class="row columns">
             <label>Verb</label>
-            <input type="text" placeholder="verb" />
+            <input id="verb" type="text" placeholder="verb" />
           </div>
           <div class="row columns">
             <label>Proper Noun</label>
-            <input type="text" placeholder="Proper noun" />
+            <input id="proper-noun" type="text" placeholder="Proper noun" />
           </div>
           <div class="row columns">
             <label>Place</label>
-            <input type="text" placeholder="place" />
+            <input id="place" type="text" placeholder="place" />
           </div>
           <div class="row columns">
-            <label>Food</label>
-            <input type="text" placeholder="food" />
+            <label>A First Name</label>
+            <input id="first-name" type="text" placeholder="first name" />
           </div>
-
+          <div class="row columns">
+            <label>A Last Name</label>
+            <input id="last-name" type="text" placeholder="last name" />
+          </div>
         </form>
       </div>     
 
-      <div class="medium-9 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="button">Simple Button</a><br/>
-        <a href="#" class="success button">Success Btn</a><br/>
-        <a href="#" class="alert button">Alert Btn</a><br/>
-        <a href="#" class="secondary button">Secondary Btn</a></p>
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+      <div class="medium-8 columns">
+        <h3>Colors to Use (RGB)</h3>
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 1</label>
+            <input id="red-1" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 1</label>
+            <input id="green-1" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 1</label>
+            <input id="blue-1" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-1"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 2</label>
+            <input id="red-2" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 2</label>
+            <input id="green-2" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 2</label>
+            <input id="blue-2" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-2"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 3</label>
+            <input id="red-3" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 3</label>
+            <input id="green-3" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 3</label>
+            <input id="blue-3" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-3"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 4</label>
+            <input id="red-4" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 4</label>
+            <input id="green-4" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 4</label>
+            <input id="blue-4" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-4"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 5</label>
+            <input id="red-5" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 5</label>
+            <input id="green-5" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 5</label>
+            <input id="blue-5" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-5"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 6</label>
+            <input id="red-6" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 6</label>
+            <input id="green-6" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 6</label>
+            <input id="blue-6" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-6"></span></p>
+          </div>
+        </div>
+
+        <div class="row align-bottom">
+          <div class="medium-3 columns">
+            <label>Red for color 7</label>
+            <input id="red-7" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Green for color 7</label>
+            <input id="green-7" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <label>Blue for color 7</label>
+            <input id="blue-7" class="color-box" type="text" placeholder="# from 0-255" />
+          </div>
+          <div class="medium-3 columns">
+            <p class="text-left"><span class="fa fa-check-circle fa-2x check-color-7"></span></p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <div id="stem-group-2" class="stem-group">
+
+    heelo
+  </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
